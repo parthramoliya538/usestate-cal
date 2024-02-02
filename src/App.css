@@ -1,0 +1,43 @@
+input{
+  border: none;
+  color: white;
+}
+.main{
+  margin: 80px auto;
+  background: gray;
+  width: 270px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.ans{
+  margin-right:5px;
+}
+.ans #ans2{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  background-color:rgba(0, 0, 0, 0.4) ;
+  padding-top:80px;
+  padding-bottom:10px;
+  border: 1px solid white;
+  color: white;
+  font-size: 40px;
+  text-align: end;
+  outline: 0px;
+}
+.first{
+  display: flex;
+}
+.first input{
+  width: 60px;
+  height: 60px;
+  border-radius: 10%;
+  margin: 4px;
+  font-size: 25px;
+  background: #414141;
+  border: 2px solid black;
+}
+.first input:hover{
+  background-color: lightgray;
+  color: black;
+  transition: .5s;
+}
